@@ -6,7 +6,7 @@ A modern, responsive website built to replicate the Aidoc design with AIUnic bra
 
 1. **Clone or download the files**
    ```bash
-   git clone <your-repo-url>
+   git clone <https://github.com/Sir-Rotich6/aiunic-website.git>
    cd aiunic-website
    ```
 
@@ -131,7 +131,7 @@ The website includes:
 1. Push to GitHub repository
 2. Go to Settings → Pages
 3. Select source branch
-4. Your site will be available at `https://yourusername.github.io/repo-name`
+4. Your site will be available at `https://Sir-Rotich6.github.io/aiunic-website`
 
 ### Netlify
 1. Drag and drop the folder to Netlify
@@ -193,11 +193,11 @@ This project is open source and available under the [MIT License](LICENSE).
 
 For support or questions:
 - Create an issue in the GitHub repository
-- Email: your-email@example.com
+- Email: renock667@gmail.com
 - Documentation: Check this README and code comments
 
 ---
 
-**Built with ❤️ by [Your Name]**
+**Built by SirRotich**
 
 *Last updated: October 2025*
