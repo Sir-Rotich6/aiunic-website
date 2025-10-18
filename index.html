@@ -10,21 +10,202 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 </head>
 <body>
-    <!-- Navigation Header -->
+    <!-- Navigation Header with Mega Menu -->
     <header class="navbar">
         <div class="container">
             <div class="nav-wrapper">
                 <div class="logo">
-                    <h1>AIUnic</h1>
+                    <a href="#home"><h1>AIUnic</h1></a>
                 </div>
                 <nav class="nav-menu">
-                    <ul>
-                        <li><a href="#learn">Learn</a></li>
-                        <li><a href="#solutions">Solutions</a></li>
-                        <li><a href="#platform">Platform</a></li>
-                        <li><a href="#healthcare-ai">Healthcare AI</a></li>
+                    <ul class="nav-main">
+                        <li class="nav-item has-dropdown">
+                            <a href="#solutions" class="nav-link">Solutions</a>
+                            <div class="mega-menu">
+                                <div class="mega-menu-content">
+                                    <div class="mega-menu-header">
+                                        <h3>Solutions</h3>
+                                        <p>Explore how AIUnic clinical AI solutions can increase hospital efficiency, show proven return on investment, and help enable better outcomes.</p>
+                                        <a href="#solutions" class="mega-menu-link">Learn more →</a>
+                                    </div>
+                                    <div class="mega-menu-grid">
+                                        <div class="mega-menu-column">
+                                            <h4>Radiology</h4>
+                                            <p class="column-desc">Prioritize findings and activate care teams in streamlined workflows</p>
+                                            <ul class="mega-menu-list">
+                                                <li><a href="#radiology">Largest portfolio of FDA-cleared algorithms</a></li>
+                                                <li><a href="#partners">Strategic partner solutions</a></li>
+                                                <li><a href="#rsna">RSNA 2025</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="mega-menu-column">
+                                            <h4>Cardiology</h4>
+                                            <p class="column-desc">Consistently measure disease and capture incidental findings</p>
+                                            <ul class="mega-menu-list">
+                                                <li><a href="#cardiology-cad">Coronary Artery Disease</a></li>
+                                                <li><a href="#cardiology-echo">Echocardiography</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="mega-menu-column">
+                                            <h4>Neurovascular</h4>
+                                            <p class="column-desc">Setting the standard for neuro care with real time notification</p>
+                                            <ul class="mega-menu-list">
+                                                <li><a href="#neuro-stroke">Stroke</a></li>
+                                                <li><a href="#neuro-aneurysm">Brain Aneurysm</a></li>
+                                                <li><a href="#neuro-spine">Spine Solutions</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="mega-menu-column">
+                                            <h4>Vascular</h4>
+                                            <p class="column-desc">Streamline workflows and centralize patient management</p>
+                                            <ul class="mega-menu-list">
+                                                <li><a href="#vte">VTE Solutions</a></li>
+                                                <li><a href="#aortic">Aortic Solutions</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="nav-item has-dropdown">
+                            <a href="#platform" class="nav-link">Platform</a>
+                            <div class="mega-menu">
+                                <div class="mega-menu-content">
+                                    <div class="mega-menu-header">
+                                        <h3>Platform</h3>
+                                        <p>Discover how AIUnic's AI platform offers seamless end-to-end integration into a facility's existing IT infrastructure enabling implementation of AI at scale.</p>
+                                        <a href="#platform" class="mega-menu-link">Learn more →</a>
+                                    </div>
+                                    <div class="mega-menu-grid">
+                                        <div class="mega-menu-column">
+                                            <h4>aiOS</h4>
+                                            <p class="column-desc">AIUnic's proprietary enterprise platform</p>
+                                        </div>
+                                        <div class="mega-menu-column">
+                                            <h4>Care Coordination</h4>
+                                            <p class="column-desc">Connect the right users across workflows</p>
+                                        </div>
+                                        <div class="mega-menu-column">
+                                            <h4>Patient Management</h4>
+                                            <p class="column-desc">Ensure patients are identified, captured and followed</p>
+                                        </div>
+                                        <div class="mega-menu-column">
+                                            <h4>Systems Integrations</h4>
+                                            <p class="column-desc">Custom configuration with minimal IT lift</p>
+                                        </div>
+                                        <div class="mega-menu-column">
+                                            <h4>Partners</h4>
+                                            <p class="column-desc">Vetted third-party algorithm developers and OEMs</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="nav-item has-dropdown">
+                            <a href="#healthcare-ai" class="nav-link">Healthcare AI</a>
+                            <div class="mega-menu">
+                                <div class="mega-menu-content">
+                                    <div class="mega-menu-header">
+                                        <h3>Healthcare AI</h3>
+                                        <p>Information and resources about AI transformation rooted in real-world experiences.</p>
+                                        <a href="#healthcare-ai" class="mega-menu-link">Learn More →</a>
+                                    </div>
+                                    <div class="mega-menu-grid mega-menu-grid-3">
+                                        <div class="mega-menu-column">
+                                            <h4>AI Strategy & Implementation</h4>
+                                            <p class="column-desc">Go beyond algorithms to build a scalable AI strategy.</p>
+                                        </div>
+                                        <div class="mega-menu-column">
+                                            <h4>BRIDGE Guidelines</h4>
+                                            <p class="column-desc">A framework to integrate AI into clinical practice.</p>
+                                        </div>
+                                        <div class="mega-menu-column">
+                                            <h4>Foundation Models</h4>
+                                            <p class="column-desc">A new approach to clinical AI, powered by AIUnic's CARE™.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="nav-item has-dropdown">
+                            <a href="#learn" class="nav-link">Learn</a>
+                            <div class="mega-menu mega-menu-large">
+                                <div class="mega-menu-content">
+                                    <div class="mega-menu-header">
+                                        <h3>Learn</h3>
+                                        <p>See the latest research, case studies, tips and more to start improving outcomes with healthcare AI today.</p>
+                                        <a href="#learn" class="mega-menu-link">Learn more →</a>
+                                    </div>
+                                    <div class="mega-menu-grid mega-menu-grid-2">
+                                        <div class="mega-menu-section">
+                                            <h4>Resources</h4>
+                                            <ul class="mega-menu-list">
+                                                <li><a href="#blog">Blog</a></li>
+                                                <li><a href="#clinical-studies">Clinical Studies & Summaries</a></li>
+                                                <li><a href="#customer-stories">Customer Stories</a></li>
+                                                <li><a href="#ebooks">Ebooks & Whitepapers</a></li>
+                                                <li><a href="#faq">FAQ</a></li>
+                                                <li><a href="#infographics">Infographics</a></li>
+                                                <li><a href="#product-info">Product Information</a></li>
+                                                <li><a href="#videos">Videos</a></li>
+                                                <li><a href="#webinars">Webinars</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="mega-menu-section">
+                                            <h4>Programs & Services</h4>
+                                            <ul class="mega-menu-list">
+                                                <li><a href="#process">AIUnic's Process</a></li>
+                                                <li><a href="#customer-success">Customer Success</a></li>
+                                                <li><a href="#insights">Insights Program</a></li>
+                                                <li><a href="#ai-path">AI PATH Program</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="nav-item has-dropdown">
+                            <a href="#company" class="nav-link">Company</a>
+                            <div class="mega-menu">
+                                <div class="mega-menu-content">
+                                    <div class="mega-menu-header">
+                                        <h3>Company</h3>
+                                        <p>Learn more about AIUnic's approach, mission and leadership team that is revolutionizing healthcare with AI.</p>
+                                        <a href="#about" class="mega-menu-link">Learn more →</a>
+                                    </div>
+                                    <div class="mega-menu-grid mega-menu-grid-3">
+                                        <div class="mega-menu-column">
+                                            <ul class="mega-menu-list">
+                                                <li><a href="#leadership">Leadership</a></li>
+                                                <li><a href="#news">News</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="mega-menu-column">
+                                            <ul class="mega-menu-list">
+                                                <li><a href="#europe">Europe</a></li>
+                                                <li><a href="#security">Security & Privacy</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="mega-menu-column">
+                                            <ul class="mega-menu-list">
+                                                <li><a href="#careers">Careers</a></li>
+                                                <li><a href="#contact">Contact</a></li>
+                                                <li><a href="#support">Support</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
                     </ul>
                 </nav>
+                <div class="nav-cta">
+                    <a href="#demo" class="demo-button">Book a Demo</a>
+                </div>
                 <button class="menu-toggle" id="menuToggle">
                     <span></span>
                     <span></span>
@@ -36,16 +217,57 @@
 
     <!-- Mobile Menu -->
     <div class="mobile-menu" id="mobileMenu">
-        <ul>
-            <li><a href="#learn">Learn</a></li>
-            <li><a href="#solutions">Solutions</a></li>
-            <li><a href="#platform">Platform</a></li>
-            <li><a href="#healthcare-ai">Healthcare AI</a></li>
-        </ul>
+        <div class="mobile-menu-content">
+            <div class="mobile-menu-section">
+                <h3>Solutions</h3>
+                <ul>
+                    <li><a href="#radiology">Radiology</a></li>
+                    <li><a href="#cardiology">Cardiology</a></li>
+                    <li><a href="#neuro">Neurovascular</a></li>
+                    <li><a href="#vascular">Vascular</a></li>
+                </ul>
+            </div>
+            <div class="mobile-menu-section">
+                <h3>Platform</h3>
+                <ul>
+                    <li><a href="#aios">aiOS</a></li>
+                    <li><a href="#care-coordination">Care Coordination</a></li>
+                    <li><a href="#patient-management">Patient Management</a></li>
+                    <li><a href="#integrations">Systems Integrations</a></li>
+                </ul>
+            </div>
+            <div class="mobile-menu-section">
+                <h3>Healthcare AI</h3>
+                <ul>
+                    <li><a href="#ai-strategy">AI Strategy & Implementation</a></li>
+                    <li><a href="#bridge">BRIDGE Guidelines</a></li>
+                    <li><a href="#foundation">Foundation Models</a></li>
+                </ul>
+            </div>
+            <div class="mobile-menu-section">
+                <h3>Learn</h3>
+                <ul>
+                    <li><a href="#blog">Blog</a></li>
+                    <li><a href="#clinical-studies">Clinical Studies</a></li>
+                    <li><a href="#customer-stories">Customer Stories</a></li>
+                </ul>
+            </div>
+            <div class="mobile-menu-section">
+                <h3>Company</h3>
+                <ul>
+                    <li><a href="#leadership">Leadership</a></li>
+                    <li><a href="#careers">Careers</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="mobile-menu-cta">
+                <a href="#demo" class="demo-button-mobile">Book a Demo</a>
+            </div>
+        </div>
     </div>
 
     <!-- Hero Section -->
-    <section class="hero">
+    <section class="hero" id="home">
         <div class="container">
             <div class="hero-content">
                 <h1 class="hero-title">AIUnic AI is always on, running in the background to change the foreground</h1>
@@ -81,7 +303,7 @@
     <section class="solutions-section" id="solutions">
         <div class="container">
             <div class="solutions-grid">
-                <div class="solution-card">
+                <div class="solution-card" id="radiology">
                     <div class="solution-icon">
                         <svg viewBox="0 0 64 64" width="48" height="48">
                             <circle cx="32" cy="32" r="30" fill="none" stroke="currentColor" stroke-width="2"/>
@@ -92,7 +314,7 @@
                     <p>Automatically analyze medical imaging to streamline workflows, prioritize findings, activate care teams and facilitate patient follow-up.</p>
                 </div>
 
-                <div class="solution-card">
+                <div class="solution-card" id="cardiology">
                     <div class="solution-icon">
                         <svg viewBox="0 0 64 64" width="48" height="48">
                             <path d="M32 12 C18 12 12 20 12 32 C12 44 18 52 32 52 C46 52 52 44 52 32 C52 20 46 12 32 12 Z" fill="none" stroke="currentColor" stroke-width="2"/>
@@ -103,7 +325,7 @@
                     <p>Enhance cardiac care with imaging and text-based AI insights to automatically – and consistently – measure disease and capture the incidental findings you want to see.</p>
                 </div>
 
-                <div class="solution-card">
+                <div class="solution-card" id="neuro">
                     <div class="solution-icon">
                         <svg viewBox="0 0 64 64" width="48" height="48">
                             <circle cx="32" cy="24" r="8" fill="none" stroke="currentColor" stroke-width="2"/>
@@ -114,7 +336,7 @@
                     <p>High performing algorithms for stroke, hemorrhage, c-spine fracture and brain aneurysm paired with care coordination tools with real time notification and clinical context from EHR.</p>
                 </div>
 
-                <div class="solution-card">
+                <div class="solution-card" id="vascular">
                     <div class="solution-icon">
                         <svg viewBox="0 0 64 64" width="48" height="48">
                             <rect x="16" y="12" width="32" height="40" rx="4" fill="none" stroke="currentColor" stroke-width="2"/>
@@ -186,24 +408,24 @@
                 <div class="resource-card">
                     <h3>Implementation Resources</h3>
                     <p>Navigate AI implementation with resources, workshops and training that guide health systems on the journey to harness AI's full potential.</p>
-                    <a href="#" class="resource-link">Learn More →</a>
+                    <a href="#resources" class="resource-link">Learn More →</a>
                 </div>
                 <div class="resource-card">
                     <h3>AI Strategy</h3>
                     <p>Go beyond the algorithm to develop a scalable AI strategy and governance plan with insights from leading healthcare executives.</p>
-                    <a href="#" class="resource-link">Learn More →</a>
+                    <a href="#strategy" class="resource-link">Learn More →</a>
                 </div>
                 <div class="resource-card">
                     <h3>News & Updates</h3>
                     <p>Get updates on what AIUnic is doing and discovering, as we bring better care across the continuum of health.</p>
-                    <a href="#" class="resource-link">Learn More →</a>
+                    <a href="#news" class="resource-link">Learn More →</a>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Footer -->
-    <footer class="footer">
+    <footer class="footer" id="contact">
         <div class="container">
             <div class="footer-content">
                 <div class="footer-info">
