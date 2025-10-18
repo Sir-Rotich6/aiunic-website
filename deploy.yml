@@ -1,6 +1,4 @@
-
-# Create GitHub Actions workflow for deployment
-github_workflow = """name: Deploy to GitHub Pages
+name: Deploy to GitHub Pages
 
 on:
   push:
@@ -11,11 +9,11 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
-    
+
     steps:
     - name: Checkout code
       uses: actions/checkout@v3
-      
+
     - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v3
       if: github.ref == 'refs/heads/main'
@@ -23,13 +21,3 @@ jobs:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_dir: ./
         publish_branch: gh-pages
-"""
-
-# Create .github/workflows directory structure info
-import os
-os.makedirs('.github/workflows', exist_ok=True)
-
-with open('.github/workflows/deploy.yml', 'w', encoding='utf-8') as f:
-    f.write(github_workflow)
-
-print("✓ GitHub Actions workflow created")

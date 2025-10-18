@@ -1,6 +1,4 @@
-
-# Create CONTRIBUTING.md
-contributing_content = """# Contributing to AIUnic Website
+# Contributing to AIUnic Website
 
 Thank you for considering contributing to the AIUnic website! We welcome contributions from everyone.
 
@@ -94,9 +92,3 @@ Enhancement suggestions are tracked as GitHub issues. When creating an enhanceme
 Feel free to create an issue for any questions about contributing.
 
 Thank you for your contributions! 🎉
-"""
-
-with open('CONTRIBUTING.md', 'w', encoding='utf-8') as f:
-    f.write(contributing_content)
-
-print("✓ CONTRIBUTING.md created")

@@ -1,6 +1,4 @@
-
-# Create .gitignore file
-gitignore_content = """# Operating System Files
+# Operating System Files
 .DS_Store
 .DS_Store?
 ._*
@@ -52,9 +50,3 @@ temp/
 # Package Manager
 package-lock.json
 yarn.lock
-"""
-
-with open('.gitignore', 'w', encoding='utf-8') as f:
-    f.write(gitignore_content)
-
-print("✓ .gitignore created")
