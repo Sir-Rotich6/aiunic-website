@@ -30,10 +30,18 @@ A modern, responsive website built to replicate the Aidoc design with AIUnic bra
 
 ```
 aiunic-website/
-├── index.html          # Main HTML file
-├── styles.css          # Complete CSS stylesheet
-├── script.js           # JavaScript functionality
-└── README.md           # This file
+├── .github/workflows/deploy.yml  # Auto-deployment
+├── index.html                    # Main website
+├── styles.css                    # Stylesheet
+├── script.js                     # JavaScript
+├── .gitignore                   # Git rules
+├── LICENSE                      # MIT License
+├── README.md                    # Documentation
+├── CONTRIBUTING.md              # Guidelines
+├── SETUP.md                     # Instructions
+├── QUICK-START.md              # Fast reference
+├── setup.sh                     # Linux/Mac script
+└── setup.bat                    # Windows script
 ```
 
 ## ✨ Features
