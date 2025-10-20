@@ -1,0 +1,9 @@
+name: aiunic-website-env
+channels:
+  - defaults
+dependencies:
+  - python=3.9
+  - pip
+  - # add any other dependencies your project needs
+  - pip:
+      - # pip packages if needed
