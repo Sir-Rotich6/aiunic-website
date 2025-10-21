@@ -14,7 +14,7 @@ A modern, responsive website built to replicate the Aidoc design with AIUnic bra
    - Simply open `index.html` in your web browser
    - Or serve it using a local server for best performance
 
-3. **For development with live server:**
+3. **For development with live servers:**
    ```bash
    # Using Python
    python -m http.server 8000
